@@ -159,7 +159,6 @@ async function getHighScores() {
     let header = document.createElement("h1");
     header.innerText = `Something is wrong`;
     document.body.appendChild(header);
-
     console.log("Something is wrong");
   }
 }
